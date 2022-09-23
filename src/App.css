@@ -1,0 +1,110 @@
+.App {
+  border: 0.1rem solid rgb(26, 98, 120);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.task {
+  background: #ccccccb5;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-weight: 600;
+}
+
+.task-name {
+  font-size: 1.1rem;
+}
+
+.task-day {
+  font-size: 0.9rem;
+}
+
+.reminder {
+  border-left: 4px solid green;
+}
+
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 0.6rem;
+}
+
+h1 {
+  margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.add-form, .form-control {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  line-height: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.form-checkbox {
+  flex-direction: row;
+  width: 100%;
+}
+
+.form-checkbox>label{
+  flex: 1;
+  display: inline-block;
+}
+
+input {
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+}
+
+footer {
+  text-align: center;
+}
